@@ -57,16 +57,29 @@ The JDBC API defines interfaces and classes for writing database applications in
 
 ### Steps for Connection
 
-- Loading Driver
+- **Loading Driver**
    
    - A program can also explicitly load JDBC drivers at any time.
    
    - eg. my.sql.jdbc.Driver is loaded using the following statement:
+   
          ```
          Class.forName("my.sql.jdbc.Driver");
          ```
          
    **NOTE: Class is the predefined class in Java and forName() is a static method**
    
-         
+   
+- **Establishing Connection**
+
+   - When getConnection() is called, the Driver Manager will attempt to locate a suitable driver from amongst those loaded at initialization and those loaded explicitly.
+   
+   ```
+   DriverManager.getConnection(url,username,password);
+   ```
+   
+   - url: database url
+   
+   **NOTE: getConnection() method returns Connection object on success, else null.**
+   
 
