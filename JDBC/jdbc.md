@@ -50,3 +50,15 @@ The JDBC API defines interfaces and classes for writing database applications in
    
    - These objects hold data retrieved from a database after you execute an SQL query using Statement object.
    - It acts as an iterator to allow you moce through its data.
+
+
+- **SQLException**
+
+   SQLException is a sub-class of the Exception class in Java.
+   
+   - It is an exception that provides information on a database access error or other errors.
+
+
+
+
+
