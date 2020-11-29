@@ -2,13 +2,14 @@
 
 The JDBC API defines interfaces and classes for writing database applications in Java by making database connections.
 
-- **Database**
+### Database
 
    Database is a set of files containing application data.
    
    This data needs to be inserted, deleted, updated, extracted for any valid reason.
    - To perform such actions, various programs can be written.
    - Else, readymade database manaagement softwares like MySQl, Oracle etc. can be used.
+
 
 ### JDBC Components
 
@@ -54,5 +55,16 @@ The JDBC API defines interfaces and classes for writing database applications in
 
 
 
+### Steps for Connection
 
+- Loading Driver
+   
+   - A program can also explicitly load JDBC drivers at any time.
+   - eg. my.sql.jdbc.Driver is loaded using the following statement:
+         ```markdown
+         Class.forName("my.sql.jdbc.Driver");
+         '''
+   **NOTE: Class is the predefined class in Java and forName() is a static method**
+   
+         
 
