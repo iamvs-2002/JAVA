@@ -1,7 +1,7 @@
 ### JDBC : Java DataBase Connectivity
 The JDBC API defines interfaces and classes for writing database applications in Java by making database connections.
 
-- Database
+- **Database**
 
    Database is a set of files containing application data.
    
