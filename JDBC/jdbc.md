@@ -62,7 +62,7 @@ The JDBC API defines interfaces and classes for writing database applications in
    - A program can also explicitly load JDBC drivers at any time.
    
    - eg. my.sql.jdbc.Driver is loaded using the following statement:
-         ```markdown
+         ```
          Class.forName("my.sql.jdbc.Driver");
          ```
          
