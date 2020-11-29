@@ -63,9 +63,9 @@ The JDBC API defines interfaces and classes for writing database applications in
    
    - eg. my.sql.jdbc.Driver is loaded using the following statement:
    
-         ```
-         Class.forName("my.sql.jdbc.Driver");
-         ```
+   ```
+   Class.forName("my.sql.jdbc.Driver");
+   ```
          
    **NOTE: Class is the predefined class in Java and forName() is a static method**
    
