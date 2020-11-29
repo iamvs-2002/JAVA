@@ -106,9 +106,9 @@ The JDBC API defines interfaces and classes for writing database applications in
    ```
    execute() : if insertion/deletion goes well, returns true, else false
    
-   executeQuery() : for select statement(used to fetch data)
+   executeQuery(query_String) : for select statement(used to fetch data)
    
-   executeUpdate() : used to update/add data in database
+   executeUpdate(query_String) : used to update/add data in database
    ```
    
 
@@ -124,3 +124,14 @@ The JDBC API defines interfaces and classes for writing database applications in
    ```
    
    ResultSet object when non null or non empty, can be iterated over that object to get results.
+
+
+
+- **Closing Database Connection**
+   
+   - Connection object has a method called **close()** to close the connection.
+   
+   ```
+   connection_object.close();
+   ```
+   
