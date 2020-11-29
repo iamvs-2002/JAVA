@@ -60,12 +60,13 @@ The JDBC API defines interfaces and classes for writing database applications in
 - **Loading Driver**
    
    - A program can also explicitly load JDBC drivers at any time.
-   
    - eg. my.sql.jdbc.Driver is loaded using the following statement:
    
    ```
    Class.forName("my.sql.jdbc.Driver");
    ```
+   
+   In the above line of code, we are registering JDBC driver in our program.
          
    **NOTE: Class is the predefined class in Java and forName() is a static method**
    
@@ -78,8 +79,35 @@ The JDBC API defines interfaces and classes for writing database applications in
    DriverManager.getConnection(url,username,password);
    ```
    
-   - url: database url
+   - url: database url, eg. jdbc:mysql://localhost:3306/name_of_database
    
    **NOTE: getConnection() method returns Connection object on success, else null.**
    
 
+
+- **Preparing Statement**
+   
+   - Connection interface has a method to prepare a statement(MySql statement).
+   
+   ```
+   statement_object = connection_object.createStatement()
+   ```
+   
+   The above statement is used to access our database.
+         
+   **NOTE: createStatement() method returns object of Prepared Statement**
+
+
+
+- **Executing Statements**
+   
+   - Prepared Statement interface jas several methods to execute query.
+   
+   ```
+   execute() : if insertion/deletion goes well, returns true, else false
+   
+   executeQuery() : for select statement(used to fetch data)
+   
+   executeUpdate() : used to update/add data in database
+   ```
+   
