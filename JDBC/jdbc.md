@@ -111,3 +111,16 @@ The JDBC API defines interfaces and classes for writing database applications in
    executeUpdate() : used to update/add data in database
    ```
    
+
+
+- **Getting Results**
+   
+   - ResultSet pbject can be obtained as a returned object by executeQuery() method of PreparedStatement.
+   
+   ```
+   resultset_object = connection_object.statement_object.executeQuery();
+   
+   resultset_object = connection_object.statement_object.executeUpdate();
+   ```
+   
+   ResultSet object when non null or non empty, can be iterated over that object to get results.
