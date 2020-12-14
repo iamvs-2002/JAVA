@@ -1,0 +1,13 @@
+class Test{
+  public static void main(String[] args){
+    A a = new A();
+    a.start();
+    
+  }
+}
+class A extends Thread{
+  public void run(){
+    //statements
+    System.out.println("Thread - a");
+  }
+}
