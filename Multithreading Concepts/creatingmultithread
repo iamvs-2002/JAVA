@@ -42,3 +42,9 @@ class B implements Runnable{
     System.out.println("Thread - b");
   }
 }
+
+/*
+Which approach is better?
+1. If the program needs a full control over the thread life cycle, then extending the Thread class is better, because Java allows only single inheritance.
+2. If the program needs more flexibility of extending other base classes, implementing the Runnable interface would be preferable.
+*/
