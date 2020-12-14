@@ -22,6 +22,6 @@ If the execution of run() method is completed, thread goes to dead state.
 - Exact behaviour of thread schedular can't be expected. Hence, exact output can't be expected of multithreaded examples.
 
 
-### Difference between t.start() and t.run()
-- In case of t.start(), Thread class start() method is executed and a new thread is created that is responsible for the execution of the run() method.
-- In case of t.run(), no new thread is created and run() method executes like a normal method called by the main thread.
+## Difference between t.start() and t.run()
+- **In case of t.start()**, Thread class start() method is executed and **a new thread is created** that is responsible for the execution of the run() method.
+- **In case of t.run(), no new thread is created** and run() method executes like a normal method called by the main thread.
