@@ -2,6 +2,7 @@
 There are two different ways to create a thread:
 1. Creating a class that extends the java.lang.Thread Class
 2. Creating a class that implements java.lang.Runnable interface
+
 */
 
 class Test{
@@ -13,6 +14,13 @@ class Test{
     t.start();//starts the execution of the thread
   }
 }
+
+/*
+NOTE:
+Whenever we call a.start() method, JVM searches for the start() method in A class, but the a.start() method is not available in the A class.
+So JVM goes to parent class,i.e., Thread class and searches for the start() method there.
+In the Thread class, start() method is available, hence JVM executes start() method.
+*/
 class A extends Thread{
   public void run(){
     //statements
