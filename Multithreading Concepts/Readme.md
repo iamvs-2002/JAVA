@@ -42,3 +42,13 @@ If the execution of run() method is completed, thread goes to dead state.
    * MIN_PRIORITY = 1
    * NORM_PRIORITY = 5
    * MAX_PRIORITY = 10
+   
+
+## Daemon Threads
+- The threads which are executed in the background are called Daemon Threads.
+- eg. garbage collector
+
+## Non-Daemon Threads
+- The threads which are executed in the foreground are called Non-Daemon Threads.
+- eg. * normal java application
+      * main thread etc.
