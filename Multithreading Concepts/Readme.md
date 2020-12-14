@@ -19,3 +19,5 @@ If the execution of run() method is completed, thread goes to dead state.
 - Part of JVM.
 - It decides which thread will be executed first and which will be executed next.
 - **Only one thread gets executed at a time.**
+- Exact behaviour of thread schedular can't be expected. Hence, exact output can't be expected of multithreaded examples.
+- It uses mainly Preemptive Scheduling or Time Slicing Scheduling to schedule the threads.
