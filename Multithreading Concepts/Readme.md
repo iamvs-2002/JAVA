@@ -38,3 +38,7 @@ If the execution of run() method is completed, thread goes to dead state.
 - Thread Schedular uses priorities while allocating processor to the thread which has the highest proiority first.
 - If two threads have same priority, it depends on Thread Schedular, to decide the execution order.
 - The thread with a lower priority waits until the completion of thread with higher priority.
+- Three constant values are defined for thread priority:
+   * MIN_PRIORITY = 1
+   * NORM_PRIORITY = 5
+   * MAX_PRIORITY = 10
