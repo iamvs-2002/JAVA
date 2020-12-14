@@ -31,3 +31,4 @@ If the execution of run() method is completed, thread goes to dead state.
 *NOTE: We don't override the start() method. If the start() method is overridden, then the JVM will execute the overriden start() method and this would not give any chance to the Thread class start() method. Hence no new thread will be created and only one thread,i.e., Main Thread would be available.*
 
 ## Thread Priorities
+- Every thread in Java has some priority, which may be default priority provided by the JVM or one provided by the programmer.
