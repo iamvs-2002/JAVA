@@ -50,6 +50,6 @@ If the execution of run() method is completed, thread goes to dead state.
 
 ## Non-Daemon Threads
 - The threads which are executed in the foreground are called Non-Daemon Threads.
-- eg. 
-      * normal java application
-      * main thread etc.
+- eg. normal java application
+
+
