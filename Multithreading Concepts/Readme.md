@@ -18,4 +18,4 @@ If the execution of run() method is completed, thread goes to dead state.
 ## Thread Schedular
 - Part of JVM.
 - It decides which thread will be executed first and which will be executed next.
-- *** Only one thread gets executed at a time.***
+- **Only one thread gets executed at a time.**
