@@ -20,4 +20,8 @@ If the execution of run() method is completed, thread goes to dead state.
 - It decides which thread will be executed first and which will be executed next.
 - **Only one thread gets executed at a time.**
 - Exact behaviour of thread schedular can't be expected. Hence, exact output can't be expected of multithreaded examples.
-- It uses mainly Preemptive Scheduling or Time Slicing Scheduling to schedule the threads.
+
+
+### Difference between t.start() and t.run()
+- In case of t.start(), Thread class start() method is executed and a new thread is created that is responsible for the execution of the run() method.
+- In case of t.run(), no new thread is created and run() method executes like a normal method called by the main thread.
