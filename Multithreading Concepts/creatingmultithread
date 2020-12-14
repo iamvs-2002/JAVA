@@ -2,12 +2,20 @@ class Test{
   public static void main(String[] args){
     A a = new A();
     a.start();
-    
+    B b = new B();
+    Thread t = new Thread(b);
+    t.start();
   }
 }
 class A extends Thread{
   public void run(){
     //statements
     System.out.println("Thread - a");
+  }
+}
+class B implements Runnable{
+  public void run(){
+    //statements
+    System.out.println("Thread - b");
   }
 }
