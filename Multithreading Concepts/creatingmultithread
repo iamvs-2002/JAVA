@@ -6,11 +6,11 @@ There are two different ways to create a thread:
 
 class Test{
   public static void main(String[] args){
-    A a = new A();
-    a.start();
-    B b = new B();
-    Thread t = new Thread(b);
-    t.start();
+    A a = new A();//creating a thread object
+    a.start();//starts the execution of the thread
+    B b = new B();//create an object
+    Thread t = new Thread(b);//create a Thread Class object
+    t.start();//starts the execution of the thread
   }
 }
 class A extends Thread{
