@@ -34,3 +34,4 @@ If the execution of run() method is completed, thread goes to dead state.
 - Every thread in Java has some priority, which may be default priority provided by the JVM or one provided by the programmer.
 - Range: 1-10, where 1 is Lowest Priority and 10 is Highest Priority.
 - The default priority of main thread is 5.
+- **The priority of child thread is inherited from the parent.**
