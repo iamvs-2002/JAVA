@@ -35,3 +35,6 @@ If the execution of run() method is completed, thread goes to dead state.
 - Range: 1-10, where 1 is Lowest Priority and 10 is Highest Priority.
 - The default priority of main thread is 5.
 - **The priority of child thread is inherited from the parent.**
+- Thread Schedular uses priorities while allocating processor to the thread which has the highest proiority first.
+- If two threads have same priority, it depends on Thread Schedular, to decide the execution order.
+- The thread with a lower priority waits until the completion of thread with higher priority.
