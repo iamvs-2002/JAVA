@@ -15,6 +15,7 @@ class Test{
   }
 }
 
+
 /*
 NOTE:
 Whenever we call a.start() method, JVM searches for the start() method in A class, but the a.start() method is not available in the A class.
@@ -26,12 +27,15 @@ Finally, the run() method is automatically executed whenever we call start() met
 A new thread only gets created when the Thread class start() method is called.
 
 */
+
+
 class A extends Thread{
   public void run(){
     //statements
     System.out.println("Thread - a");
   }
 }
+
 class B implements Runnable{
   public void run(){
     //statements
