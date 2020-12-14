@@ -25,3 +25,6 @@ If the execution of run() method is completed, thread goes to dead state.
 ## Difference between t.start() and t.run()
 - **In case of t.start()**, Thread class start() method is executed and **a new thread is created** that is responsible for the execution of the run() method.
 - **In case of t.run(), no new thread is created** and run() method executes like a normal method called by the main thread.
+
+*NOTE: We don't override the start() method. If the start() method is overridden, then the JVM will execute the overriden start() method and this would not give any chance to the Thread class start() method. Hence no new thread will be created and only one thread,i.e., Main Thread would be available.*
+
