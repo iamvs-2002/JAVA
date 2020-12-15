@@ -1,1 +1,3 @@
-
+/*
+join() method is used if we want a thread to wait until completing any other thread
+*/
