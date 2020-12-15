@@ -1,5 +1,6 @@
 /*
 A thread can interrupt another sleeping or waiting thread by using interrupt() method.
+This method does not return any value.
 NOTE: interrupt() method only works when the thread enters into sleeping or waiting state, else it plays no role and hence gets wasted.
 */
 
