@@ -29,4 +29,40 @@ Output:
 */
 //PS: interrupt() method gets wasted!
 
+Example 2:
+public class Test extends Thread  
+{    
+    public void run()  
+    {    
+        try  
+        {    
+            // Here current thread goes to sleeping state  
+            // Another thread gets the chance to execute  
+            
+            Thread.sleep(500);    
+            System.out.println("In the thread");    
+        }
+        catch(InterruptedException e)
+        {    
+            System.out.println("Exception handled "+e);    
+        }    
+        System.out.println("Thread is running...");    
+    }    
+    public static void main(String args[])  
+    {    
+        Test t1=new Test();    
+        Test t2=new Test(); 
+        
+        // call run() method   
+        t1.start();   
+        
+        // interrupt the thread   
+        t1.interrupt();    
+    }    
+}   
 
+/*
+Output:
+Exception handled java.lang.InterruptedException: sleep interrupted
+Thread is running...
+*/
