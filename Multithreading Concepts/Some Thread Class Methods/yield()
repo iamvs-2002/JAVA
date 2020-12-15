@@ -1,1 +1,36 @@
+/*
+yield() method causes the current thread being executed to pause so that some waiting thread of same priority can be executed.
+If there are no waiting threads or all the threads have same priority, then the same thread will continue its execution once again.
+*/
 
+class A extends Thread{
+  public void run(){
+    for(int i=0;i<5;i++){
+      System.out.println("Child Thread");
+      Thread.yield();
+    }
+  }
+}
+class Test{
+  public static void main(String[] main){
+    A a = new A();
+    a.start();
+    for(int i=0;i<5;i++){
+      System.out.println("Main Thread");
+    }
+  }
+}
+
+/*
+Output:
+Child Thread
+Main Thread
+Main Thread
+Main Thread
+Main Thread
+Main Thread
+Child Thread
+Child Thread
+Child Thread
+Child Thread
+*/
