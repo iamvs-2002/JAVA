@@ -11,3 +11,25 @@ class A extends Thread{
     System.out.println("In the thread");
   }
 }
+class Test{
+  public static void main(String[] args){
+    A a1 = new A();
+    A a2 = new A();
+    
+    a1.start();
+    a2.start();
+    
+    System.out.println("The thread id is: "+a1.getId());
+    System.out.println("The thread name is: "+a1.getName());//a1
+    System.out.println("The thread priority is: "+a1.getPriority());//5
+    
+    a1.setPriority(6);
+    a1.setName("xD");
+    System.out.println("The thread name is: "+a1.getName());//xD
+    System.out.println("The thread priority is: "+a1.getPriority());//6
+    
+    System.out.println("The thread id is: "+a2.getId());
+    System.out.println("The thread name is: "+a2.getName());//a2
+    System.out.println("The thread priority is: "+a2.getPriority());//5
+  }
+}
