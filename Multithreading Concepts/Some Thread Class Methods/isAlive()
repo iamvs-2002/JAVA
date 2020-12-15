@@ -1,1 +1,18 @@
+/*
+isAlive() method is used to check whether the thread is alive or not.
+It returns a boolean value,i.e., true or false.
+*/
 
+class A extends Thread{
+  public void run(){
+    System.out.println(Thread.currentThread().getName()); //A
+  }
+}
+class Test{
+  public static void main(String[] args){
+    A a = new A();
+    System.out.println(a.isAlive()); //false
+    a.start();
+    System.out.println(a.isAlive()); //true
+  }
+}
