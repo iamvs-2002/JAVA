@@ -1,3 +1,32 @@
 /*
-
+A thread can interrupt another sleeping or waiting thread by using interrupt() method.
+NOTE: interrupt() method only works when the thread enters into sleeping or waiting state, else it plays no role and hence gets wasted.
 */
+
+//Example 1:
+public class Test extends Thread  
+{    
+    public void run()  
+    {    
+        for(int i=1; i<=5; i++)    
+            System.out.println(i);    
+    }    
+    public static void main(String args[])  
+    {    
+        Test t1=new Test();    
+        // call run() method  
+        t1.start();    
+        t1.interrupt();    
+    }    
+}    
+/*
+Output:
+1
+2
+3
+4
+5
+*/
+//PS: interrupt() method gets wasted!
+
+
