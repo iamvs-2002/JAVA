@@ -2,3 +2,6 @@
 getId() is used to generate id value for each and every thread.
 getName() is used to get the name of the current thread.
 setName() is used to set the name of the current thread.
+getPriority() is used to get the priority of the current thread.
+setPriority() is used to set the priority of the current thread.
+*/
