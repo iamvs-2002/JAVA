@@ -47,4 +47,5 @@ Output:
 4
 */
 // PS: Thread 1 completes all its task then thread 2 and 3 will be executed.
+// PS: After thread 1 completes its execution, the thread 2 and thread 3 outputs may vary depending upon processor speed and the thread schedular.
 
