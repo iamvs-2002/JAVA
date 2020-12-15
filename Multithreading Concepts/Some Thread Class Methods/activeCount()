@@ -1,1 +1,21 @@
+/*
+activeCount() method is used to find the number of active threads/methods.
+*/
 
+class A extends Thread{
+  public void run(){
+    System.out.println(Thread.currentThread().getName());  
+  }
+}
+class Test{
+  public static void main(String[] args){
+    A a1 = new A();
+    A a2 = new A();
+    A a3 = new A();
+    a1.start();
+    a2.start();
+    a3.start();
+    System.out.println(Thread.activeCount());    //4 
+    // Main, a1,a2,a3
+  }
+}
