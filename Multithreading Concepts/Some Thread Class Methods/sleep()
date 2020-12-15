@@ -1,1 +1,27 @@
+/*
+sleep() method causes the current thread to sleep for a specified period of time(in milliseconds).
+*/
 
+class Test{
+  public static void main(String[] args){
+    try{
+      for(int i=0;i<5;i++){
+        System.out.println("Main Thread,"+i);
+        Thread.sleep(5000) //5 seconds
+      }
+    }
+    catch(Exception e){
+      System.out.println("Thread got interrupted!");
+    }
+  }
+}
+
+/*
+Output:
+Main Thread,0
+Main Thread,1
+Main Thread,2
+Main Thread,3
+Main Thread,4
+*/
+//PS: Each line of output is executed after 5 seconds.
