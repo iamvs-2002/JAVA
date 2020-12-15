@@ -3,6 +3,7 @@ A thread can interrupt another sleeping or waiting thread by using interrupt() m
 This method does not return any value.
 Using the interrupt() method, we can interrupt the thread execution by throwing InterruptedException.
 NOTE: interrupt() method only works when the thread enters into sleeping or waiting state, else it plays no role and hence gets wasted.
+PS: interrupt() method sets the interrupt flag to true, even if it gets wasted!
 */
 
 //Example 1:
