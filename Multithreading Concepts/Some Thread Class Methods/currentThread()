@@ -1,1 +1,23 @@
+/*
+currentThread() method is used to represent current Thread class object.
+*/
 
+class A extends Thread{
+  public void run(){
+    System.out.println(Thread.currentThread().getName());
+  }
+}
+class Test{
+  public static void main(String[] args){
+    A a1 = new A();
+    A a2 = new A();
+    a1.start();
+    a2.start();
+  }
+}
+
+/*
+Output:
+a1
+a2
+*/
