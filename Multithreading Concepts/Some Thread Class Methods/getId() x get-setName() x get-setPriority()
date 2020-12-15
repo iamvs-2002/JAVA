@@ -5,3 +5,9 @@ setName() is used to set the name of the current thread.
 getPriority() is used to get the priority of the current thread.
 setPriority() is used to set the priority of the current thread.
 */
+
+class A extends Thread{
+  public void run(){
+    System.out.println("In the thread");
+  }
+}
