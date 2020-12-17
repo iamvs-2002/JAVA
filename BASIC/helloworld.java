@@ -14,7 +14,8 @@ The name of the class must be the final name if it is declared public, else the 
     static : this method belongs to a class not an object
     void : this method doesn't return anything
     main : the name of this method
-    
+    (String[] args) : the parameters passed onto this method, in this case the arguments on the command line as an array of strings
+    { : curly brace for opening the method body
     */
     
     
