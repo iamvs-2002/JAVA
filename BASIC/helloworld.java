@@ -27,7 +27,10 @@ The name of the class must be the final name if it is declared public, else the 
     
   }
   /*
-  } : 
+  } : curly brace for closing the method body
   */
   
 }
+/*
+} : curly brace for closing the class
+*/
