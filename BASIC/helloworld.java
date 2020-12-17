@@ -9,6 +9,12 @@ The name of the class must be the final name if it is declared public, else the 
 */
 
   public static void main(String[] args){
+    /*
+    public : means that anyone can run this method
+    
+    */
+    
+    
     
   }
   
