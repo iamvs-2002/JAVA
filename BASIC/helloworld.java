@@ -18,7 +18,11 @@ The name of the class must be the final name if it is declared public, else the 
     { : curly brace for opening the method body
     */
     
+    System.out.println("Hello World!");
+    /*
+    System.out.println : the name of the method we want to call, in this case the method to print something on the screen
     
+    */
     
   }
   
