@@ -12,6 +12,7 @@ The name of the class must be the final name if it is declared public, else the 
     /*
     public : means that anyone can run this method
     static : this method belongs to a class not an object
+    void : this method doesn't return anything
     
     */
     
