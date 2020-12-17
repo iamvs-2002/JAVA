@@ -22,8 +22,12 @@ The name of the class must be the final name if it is declared public, else the 
     /*
     System.out.println : the name of the method we want to call, in this case the method to print something on the screen
     ("Hello World!") : the parameter passed to this method, in this case the string/message we want to print
+    ; : semi-colon indicates the end of this statement
     */
     
   }
+  /*
+  } : 
+  */
   
 }
