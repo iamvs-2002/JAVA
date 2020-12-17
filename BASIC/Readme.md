@@ -8,3 +8,7 @@ For example, in the helloworld.java program, there is only one static method nam
 Some of the reserved words in Java are: public, class, static, try, catch, finally abstract, synchronized, true, false, void etc. *These names cannot be used as class, method or variable names.*
 
 ### Comments
+- Comments are not executed by the compiler. These are basically the statements used to explain or define the working of the code.
+- Used to increase readability of the code for ourselves as well as fellow programmers.
+- Single line comments: // comment
+- Multiline comments: /* comment */
