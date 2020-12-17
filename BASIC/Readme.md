@@ -12,3 +12,6 @@ Some of the reserved words in Java are: public, class, static, try, catch, final
 - Used to increase readability of the code for ourselves as well as fellow programmers.
 - Single line comments: // comment
 - Multiline comments: /* comment */
+
+### Data Types
+- Also called as Base Types or Primitive Types
