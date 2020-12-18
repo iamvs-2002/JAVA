@@ -24,3 +24,5 @@ Some of the reserved words in Java are: public, class, static, try, catch, final
 * **long**-0L-*8 bytes*
 * **float**-0.0f-*4 bytes*
 * **double**-0.0d-*8 bytes*
+
+eg:   int i,j,k=20;  //3 variables, i, j, k declared but only k is initialized
