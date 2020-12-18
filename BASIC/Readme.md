@@ -54,7 +54,7 @@ public class XYZ{  //class XYZ
 - **A class can have more than one constructor.**
 
 eg: 
-
+/*
 public class Puppy {
    public Puppy(String name) {// This constructor has one parameter, name.
       System.out.println("Passed Name is :" + name );
@@ -63,3 +63,4 @@ public class Puppy {
       Puppy myPuppy = new Puppy( "tommy" );
    }
 }
+*/
