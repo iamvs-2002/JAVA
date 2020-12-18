@@ -33,7 +33,7 @@ eg: - int i,j,k=20;  //3 variables, i, j, k declared but only k is initialized
 - An **object** is an instance of class.
 
 eg:
-
+'''
 public class XYZ{  //class XYZ
     
     XYZ(){} //constructor XYX
@@ -43,5 +43,6 @@ public class XYZ{  //class XYZ
         XYZ x = new XYZ(); //an object x of class XYZ
     
     }
-    
+  
 }
+'''
