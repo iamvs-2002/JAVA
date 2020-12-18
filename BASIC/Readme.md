@@ -27,3 +27,21 @@ Some of the reserved words in Java are: public, class, static, try, catch, final
 
 eg: - int i,j,k=20;  //3 variables, i, j, k declared but only k is initialized
     - char $ab = 'A'; //a variable of char type, named as $ab initialized with a value = A
+    
+### Classes and Objects
+- A **class** is a blueprint from which individual objects are created.
+- An **object** is an instance of class.
+
+eg:
+
+public class XYZ{  //class XYZ
+    
+    XYZ(){} //constructor XYX
+    
+    public static void main(String[] args){
+    
+        XYZ x = new XYZ(); //an object x of class XYZ
+    
+    }
+    
+}
