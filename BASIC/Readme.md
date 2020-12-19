@@ -40,6 +40,8 @@ Here,
 * new : Keyword to create an object of that class
 * Test() : Constructor used to initialize the object
 
+**NOTE: Declaring reference variable doesn't mean creating an object. An object is created only by the use of "new" operator/keyword.**
+
 ### Constructors
 - Every class has a constructor. 
 - A user-defined constructor's name must be same as its class name.
