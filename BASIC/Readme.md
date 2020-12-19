@@ -41,8 +41,17 @@ eg: - int i,j,k=20;  //3 variables, i, j, k declared but only k is initialized
 
 ### Methods
 - Functions in Java are called **Methods**.
+- Return type is necessary, else it is a syntax error.
 - A method’s name combined with the number and types of its parameters is called a **method’s signature**.
 - Because the signature of a method in Java does not include the type that the method returns,
   so Java does not allow two methods with the same signature to return different types.
   
 ### Modifiers  
+- Immediately before defining any class, method or an instance variable, we can use modifiers to convey additional information about that definition.
+- The various modifiers are:
+    * **public**
+    * **private**
+    * **protected**
+    * **static**
+    * **final**
+    * **abstract**
