@@ -60,3 +60,4 @@ eg: - int i,j,k=20;  //3 variables, i, j, k declared but only k is initialized
     * **default**
         * modifier applicable for classes, methods and variables(only for instance and static variables but not for local variables).
         * If a class is declared with **default** modifier, then we can access that class only within that package but not from outside of the package.
+        * The default modifier in Java is **default**.
