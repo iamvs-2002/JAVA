@@ -53,6 +53,7 @@ eg: - int i,j,k=20;  //3 variables, i, j, k declared but only k is initialized
 - The various modifiers are:
     * **public**
     * **private**
+        * modifier applicable for methods and variables.
     * **protected**
     * **static**
     * **final**
