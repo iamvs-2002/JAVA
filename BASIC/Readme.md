@@ -74,11 +74,15 @@ Here,
     * **static**
     * **final**
         * Used to restrict the user.
+        * modifier applicable for variables, methods and classes.
         * If a variable is declared as final, we can't change the value of final variable(i.e., it will be constant).
         * If a method is declared as final, we can't override that method.
         * If a class is declared as final, we can't extend it.
         * **NOTE: A final method can be inherited but we can't override it.**
     * **abstract**
+        * The abstract keyword is used to achieve abstraction in Java. 
+        * It is a non-access modifier which is used to create abstract class and method.
+        * The role of an abstract class is to contain abstract methods. However, it may also contain non-abstract methods.
     * **default**
         * modifier applicable for classes, methods and variables(only for instance and static variables but not for local variables).
         * If a class is declared with **default** modifier, then we can access that class only within that package but not from outside of the package.
