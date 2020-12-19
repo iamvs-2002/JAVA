@@ -72,6 +72,11 @@ Here,
         * If a member is declared as protected, then we can access it only within the current package anywhere, but outside the package only in the child classes.
         * From outside the package, we can access protected members only by using child reference. If we try to use parent reference, we get compilation error.
     * **static**
+        * Used to create variables that will exist independently of any instances created for the class.
+        * **NOTE: Only one copy of the static variable exists regardless of the number of instances of the class.**
+        * Static methods do not use any instance variables of any object of the class they are defined in. 
+        * Static methods take all the data from parameters and compute something from those parameters, with no reference to variables.
+        * Class variables and methods can be accessed using the class name followed by a dot(.) and the name of the variable or method.
     * **final**
         * Used to restrict the user.
         * modifier applicable for variables, methods and classes.
