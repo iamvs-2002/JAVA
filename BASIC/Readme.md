@@ -64,6 +64,8 @@ Here,
 - Immediately before defining any class, method or an instance variable, we can use modifiers to convey additional information about that definition.
 - The various modifiers are:
     * **public**
+        * modifier applicable for variables, methods, constructors, and classes.
+        * The public access modifier is accessible everywhere. So, we can easily access the public inside and outside the class and package.
     * **private**
         * modifier applicable for methods and variables.
         * If a memeber is declared as private, then it can be accessed only from within that class.
