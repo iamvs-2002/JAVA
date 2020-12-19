@@ -66,6 +66,7 @@ Here,
     * **public**
         * modifier applicable for variables, methods, constructors, and classes.
         * The public access modifier is accessible everywhere. So, we can easily access the public inside and outside the class and package.
+        * **NOTE: If a program contains multiple classes, at most one class can be assigned as public and the name of the program must be similar to that public class name.**
     * **private**
         * modifier applicable for methods and variables.
         * If a memeber is declared as private, then it can be accessed only from within that class.
