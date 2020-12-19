@@ -62,7 +62,7 @@ Here,
 - Because the signature of a method in Java does not include the type that the method returns,
   so Java does not allow two methods with the same signature to return different types.
   
-### Modifiers  
+### Modifiers
 - Immediately before defining any class, method or an instance variable, we can use modifiers to convey additional information about that definition.
 - The various modifiers are:
     * **public**
@@ -97,3 +97,13 @@ Here,
         * modifier applicable for classes, methods and variables(only for instance and static variables but not for local variables).
         * If a class is declared with **default** modifier, then we can access that class only within that package but not from outside of the package.
         * The default modifier in Java is **default**.
+        
+### this keyword
+     - **this** is a reference variable that refers to the current object.
+     - Usages of **this** keyword:
+          * this can be used to refer current class instance variable.
+          * this can be used to invoke current class method.
+          * this() can be used to invoke current class constructor.
+          * this can be passed as an argument in the method call.
+          * this can be passed as argument in the constructor call. //first line
+          * this can be used to return the current class instance from the method.
