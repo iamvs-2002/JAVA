@@ -54,6 +54,7 @@ eg: - int i,j,k=20;  //3 variables, i, j, k declared but only k is initialized
     * **public**
     * **private**
         * modifier applicable for methods and variables.
+        * If a memeber is declared as private, then it can be accessed only from within that class.
     * **protected**
     * **static**
     * **final**
