@@ -55,6 +55,7 @@ eg: - int i,j,k=20;  //3 variables, i, j, k declared but only k is initialized
     * **private**
         * modifier applicable for methods and variables.
         * If a memeber is declared as private, then it can be accessed only from within that class.
+        * If a method is declared as private, it means it can be accessed only from within its class. It is not possible to call even the child classes.
     * **protected**
     * **static**
     * **final**
