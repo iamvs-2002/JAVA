@@ -34,6 +34,8 @@ eg: - int i,j,k=20;  //3 variables, i, j, k declared but only k is initialized
 
 ### Constructors
 - Every class has a constructor. 
+- A user-defined constructor's name must be same as its class name.
+- Constructors do not have a return type. If a return type is provided, comiler shows a comilation error.
 - If we do not explicitly write a constructor for a class, the Java compiler builds a default constructor for that class.
 - Each time a new object is created, at least one constructor will be invoked. 
 - The main rule of constructors is that they should have the same name as the class. 
