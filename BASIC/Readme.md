@@ -53,14 +53,4 @@ public class XYZ{  //class XYZ
 - The main rule of constructors is that they should have the same name as the class. 
 - **A class can have more than one constructor.**
 
-eg: 
-/*
-public class Puppy {
-   public Puppy(String name) {// This constructor has one parameter, name.
-      System.out.println("Passed Name is :" + name );
-   }
-   public static void main(String []args) { // Following statement would create an object myPuppy
-      Puppy myPuppy = new Puppy( "tommy" );
-   }
-}
-*/
+eg: check constructors.java
