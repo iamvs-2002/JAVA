@@ -4,6 +4,12 @@ public class CounterDemo
     {
         Counter c; //  declares a variable; no counter yet constructed
         c = new Counter( ); // constructs a counter; assigns its reference to c
+   
+        
+        /*
+        When we assign an object reference (that is, memory address) to a reference variable, it is as if we are storing that object’s remote control at that variable.
+        */
+        
       
         c.increment( ); // increases its value by one
         c.incremen  t(3); // increases its value by three more
