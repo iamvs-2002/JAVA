@@ -77,6 +77,7 @@ Here,
         * If a variable is declared as final, we can't change the value of final variable(i.e., it will be constant).
         * If a method is declared as final, we can't override that method.
         * If a class is declared as final, we can't extend it.
+        * **NOTE: A final method can be inherited but we can't override it.**
     * **abstract**
     * **default**
         * modifier applicable for classes, methods and variables(only for instance and static variables but not for local variables).
