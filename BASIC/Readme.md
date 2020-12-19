@@ -73,6 +73,10 @@ Here,
         * From outside the package, we can access protected members only by using child reference. If we try to use parent reference, we get compilation error.
     * **static**
     * **final**
+        * Used to restrict the user.
+        * If a variable is declared as final, we can't change the value of final variable(i.e., it will be constant).
+        * If a method is declared as final, we can't override that method.
+        * If a class is declared as final, we can't extend it.
     * **abstract**
     * **default**
         * modifier applicable for classes, methods and variables(only for instance and static variables but not for local variables).
