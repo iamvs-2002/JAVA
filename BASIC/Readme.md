@@ -29,8 +29,16 @@ eg: - int i,j,k=20;  //3 variables, i, j, k declared but only k is initialized
     - char $ab = 'A'; //a variable of char type, named as $ab initialized with a value = A
     
 ### Classes and Objects
-- A **class** is a blueprint from which individual objects are created.
+- A **class** is a group of objects having common property.
 - An **object** is an instance of class.
+
+**Test t = new Test();**
+
+Here,
+* Test : Class name
+* t : Reference Variable
+* new : Keyword to create an object of that class
+* Test() : Constructor used to initialize the object
 
 ### Constructors
 - Every class has a constructor. 
@@ -57,6 +65,8 @@ eg: - int i,j,k=20;  //3 variables, i, j, k declared but only k is initialized
         * If a memeber is declared as private, then it can be accessed only from within that class.
         * If a method is declared as private, it means it can be accessed only from within its class. It is not possible to call even the child classes.
     * **protected**
+        * If a member is declared as protected, then we can access it only within the current package anywhere, but outside the package only in the child classes.
+        * From outside the package, we can access protected members only by using child reference. If we try to use parent reference, we get compilation error.
     * **static**
     * **final**
     * **abstract**
