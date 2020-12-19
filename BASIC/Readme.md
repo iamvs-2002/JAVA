@@ -46,6 +46,8 @@ Here,
 - Every class has a constructor. 
 - A user-defined constructor's name must be same as its class name.
 - Constructors do not have a return type. If a return type is provided, comiler shows a comilation error.
+- **Constructors are executed as a part of object creation.**
+- **If we want to perform any type of initializations at the time of object creation, we use constructors.**
 - If we do not explicitly write a constructor for a class, the Java compiler builds a default constructor for that class.
 - Each time a new object is created, at least one constructor will be invoked. 
 - The main rule of constructors is that they should have the same name as the class. 
