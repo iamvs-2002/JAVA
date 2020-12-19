@@ -32,20 +32,6 @@ eg: - int i,j,k=20;  //3 variables, i, j, k declared but only k is initialized
 - A **class** is a blueprint from which individual objects are created.
 - An **object** is an instance of class.
 
-eg:
-
-public class XYZ{  //class XYZ
-    
-    XYZ(){} //constructor XYX
-    
-    public static void main(String[] args){
-    
-        XYZ x = new XYZ(); //an object x of class XYZ
-    
-    }
-  
-}
-
 ### Constructors
 - Every class has a constructor. 
 - If we do not explicitly write a constructor for a class, the Java compiler builds a default constructor for that class.
@@ -53,4 +39,8 @@ public class XYZ{  //class XYZ
 - The main rule of constructors is that they should have the same name as the class. 
 - **A class can have more than one constructor.**
 
-eg: check constructors.java
+### Methods
+- Functions in Java are called **Methods**.
+- A method’s name combined with the number and types of its parameters is called a **method’s signature**.
+- Because the signature of a method in Java does not include the type that the method returns,
+  so Java does not allow two methods with the same signature to return different types.
