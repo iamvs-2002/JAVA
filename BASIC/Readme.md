@@ -261,11 +261,11 @@ Here,
      * Can be considered as a product(multiplication).
      ```
      	eg. A && B = C
-          * **A**  **B**  **C**
-          * 0  0  0
-          * 0  1  0
-          * 1  0  0
-          * 1  1  1
+           A  B  C
+           0  0  0
+           0  1  0
+           1  0  0
+           1  1  1
       ```
 - **OR**
      * Represented as **||**
@@ -275,11 +275,11 @@ Here,
      * Can be considered as a sum(addition).
      ```
      	eg. A || B = C
-          * **A**  **B**  **C**
-          * 0  0  0
-          * 0  1  1
-          * 1  0  1
-          * 1  1  1
+           A  B  C
+           0  0  0
+           0  1  1
+           1  0  1
+           1  1  1
      ```
 
 ### Ternary Operator
