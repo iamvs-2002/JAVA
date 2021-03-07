@@ -171,8 +171,7 @@ eg:
      Value of Case 2 is 10
      Value of Case 3 is 10
      Value of default is 10
-     ```
-     
+     ```      
      
 ### Loops
 - Loops are used to execute a block of code several number of times.
@@ -316,6 +315,32 @@ eg:
 	```
 	* Used to skip the current iteration of the loop and move to the next iteration for the same loop.
 
+
+#### NOTE 
+- In Java, the condition must be a boolean and not some value.
+	```
+	if(1)
+	{
+		//statement1
+	}
+	while(1)
+	{
+		//statement2
+	}
+	The above codes works good in C, but throws an error in Java.
+	```
+	
+	```
+	if(true)
+	{
+		//statement1
+	}
+	while(true)
+	{
+		//statement2
+	}
+	The above codes works good in Java.
+	```
 
 ### Classes and Objects
 - A **class** is a group of objects having common property.
