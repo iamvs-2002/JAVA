@@ -177,3 +177,33 @@ Here,
                * this can be passed as an argument in the method call.
                * this can be passed as argument in the constructor call. //first line
                * this can be used to return the current class instance from the method.
+
+### Logical/Conditional Operators
+- **AND**
+     * Represented as **&&**
+     * AND operator is applied between two Boolean expressions.
+     * It returns a boolean value - True or False
+     * It returns true iff both expressions are true, else it returns false.
+     * Can be considered as a product(multiplication).
+     * ```
+     * eg. A && B = C
+          * **A**  **B**  **C**
+          * 0  0  0
+          * 0  1  0
+          * 1  0  0
+          * 1  1  1
+          * ```
+- **OR**
+     * Represented as **||**
+     * OR operator is applied between two Boolean expressions.
+     * It returns a boolean value - True or False
+     * It returns true if any of the expression is true, else it returns false.
+     * Can be considered as a sum(addition).
+     * ```
+     * eg. A || B = C
+          * **A**  **B**  **C**
+          * 0  0  0
+          * 0  1  1
+          * 1  0  1
+          * 1  1  1
+          * ```
