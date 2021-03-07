@@ -45,8 +45,22 @@ eg:
           statement
      }
      ```
-     * if the condition is satisfied, then execute the statement.
+     * if the condition is satisfied, then execute the statement
      * else is optional
+- *else statement*
+     ```
+     if(condition)
+     {
+          statement1
+     }
+     else
+     {
+          statement2
+     }
+     ```
+     * if the condition is satisfied, then execute the statement1
+     * else execute the statement2
+
 
 ### Classes and Objects
 - A **class** is a group of objects having common property.
