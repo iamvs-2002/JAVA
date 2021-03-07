@@ -218,6 +218,34 @@ eg:
 - **while loop**
 	* Used to iterate a block of code several number of times.
 	* Best to use if the number of iterations are not fixed.
+	```
+	while(condition)
+	{  
+		//code to be executed 
+	}
+	```
+	* First the condition is checked, if its true, we enter the loop and the statements are executed.
+	* When the condition is false, we come out of the loop.
+	* Example:
+	```
+	int i=1;  
+	while(i<10)
+	{  
+		System.out.print(i+" ");  
+		i++;  
+	}  
+	
+	The output of the above code is:
+	1 2 3 4 5 6 7 8 9
+	```
+	* Infinite loop:
+	```
+	while(true)
+	{  
+		//code to be executed  
+	}
+	The above loop executes infinitely because the condition is always true.
+	```
 - **do while loop**
 	* Used to iterate a block of code several number of times.
 	* Best to use if the number of iterations are not fixed and the code must be executed atleast once.
