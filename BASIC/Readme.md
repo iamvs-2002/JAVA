@@ -192,7 +192,7 @@ Here,
           * 0  1  0
           * 1  0  0
           * 1  1  1
-          * ```
+      * ```
 - **OR**
      * Represented as **||**
      * OR operator is applied between two Boolean expressions.
@@ -206,4 +206,13 @@ Here,
           * 0  1  1
           * 1  0  1
           * 1  1  1
-          * ```
+      * ```
+
+### Ternary Operator
+- ```
+- variable = (condition) ? expression1 : expression2  
+- ```
+- The above statement states that if the condition returns true, expression1 gets executed, else the expression2 gets executed and the final result stored in a variable.
+- It can be used instead of the if-else statement. 
+- It makes the code much more easy, readable, and shorter.
+- **Note: Every code using an if-else statement cannot be replaced with a ternary operator.**
