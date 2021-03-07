@@ -30,6 +30,24 @@ eg:
      int i,j,k=20;  //3 variables, i, j, k declared but only k is initialized
      char $ab = 'A'; //a variable of char type, named as $ab initialized with a value = A
     
+### Conditional Statements(if/if-else/if-else if-else)
+- There are 5 kinds of conditional statements:
+     * if statement
+     * nested if statement
+     * if-else statement
+     * if-else-if statement
+     * Switch Case Statement
+   
+- *if statement*
+     ```
+     if(condition)
+     {
+          statement
+     }
+     ```
+     * if the condition is satisfied, then execute the statement.
+     * else is optional
+
 ### Classes and Objects
 - A **class** is a group of objects having common property.
 - An **object** is an instance of class.
