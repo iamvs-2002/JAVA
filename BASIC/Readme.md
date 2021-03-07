@@ -40,7 +40,7 @@ eg:
      ```
      if(condition)
      {
-          statement
+          //statement
      }
      ```
      * if the condition is satisfied, then execute the statement
@@ -49,11 +49,11 @@ eg:
      ```
      if(condition)
      {
-          statement1
+          //statement1
      }
      else
      {
-          statement2
+          //statement2
      }
      ```
      * if the condition is satisfied, then execute the statement1
@@ -62,21 +62,43 @@ eg:
      ```
      if(condition1)
      {
-          statement1
+          //statement1
      }
      else if(condition2)
      {
-          statement2
+          //statement2
      }
      else
      {
-          statement3
+          //statement3
      }
      ```
      * if the condition1 is satisfied, then execute the statement1
      * if not, check condition2
      * if condition2 is satisfied, then execute the statement2
      * else execute the statement3
+- *nested if-else statement*
+     ```
+     if(condition1)
+     {
+          if(condition2)
+          {
+               //statement2
+          }
+          else
+          {
+               //statement1
+          }
+     }
+     else
+     {
+          //statement3
+     }
+     ```
+     * if the condition1 is satisfied,
+          * check condition2, if satisfied, execute statement2
+          * else execute statement1
+     * else execute the statement3(if condition1 is not satisfied)
 
 ### Classes and Objects
 - A **class** is a group of objects having common property.
