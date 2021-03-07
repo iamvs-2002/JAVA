@@ -34,6 +34,8 @@ eg:
 - The various kinds of conditional statements:
      * if statement
      * if-else statement
+     * else if statement
+     * nested if-else statement
      * Switch Case Statement
    
 - *if statement*
@@ -99,7 +101,79 @@ eg:
           * check condition2, if satisfied, execute statement2
           * else execute statement1
      * else execute the statement3(if condition1 is not satisfied)
-
+- *switch statement*
+     ```
+     switch(expression)
+     {
+          case firstvalue:
+               //statement1
+               break;
+          case secondvalue:
+               //statement2
+               break;
+          .
+          .
+          .
+          default:
+               //statement3
+               break;
+     }
+     ```
+     * When there are multiple values possible for an expression, we use switch statement.
+     * If the resulting value of the expression matches with the firstvalue, then statement1 is executed.
+     * If it matches to secondvalue, then statement2 is executed.
+     * If it matches to none of the cases, then statement3 is executed.
+     * There can be any number of cases.
+     * The default statement gets executed if all cases are not matched.
+     ```
+	public static void main(String[] args) 
+     {	
+		int x=10;
+		switch(x)
+          {
+               case 5:
+                    System.out.println("Value of Case 1 is "+x);
+                    break;
+               case 10:
+                    System.out.println("Value of Case 2 is "+x);
+                    break;
+               case 15:
+                    System.out.println("Value of Case 3 is "+x);
+                    break;
+               default:
+                    System.out.println("Value of default is "+x);
+                    break;
+		}
+	}
+     
+     The output is:
+     Value of Case 2 is 10
+     ```
+     * If break is not used, it executes all the statements after the first match.
+     ```
+	public static void main(String[] args) 
+     {	
+		int x=10;
+		switch(x)
+          {
+               case 5:
+                    System.out.println("Value of Case 1 is "+x);
+               case 10:
+                    System.out.println("Value of Case 2 is "+x);
+               case 15:
+                    System.out.println("Value of Case 3 is "+x);
+               default:
+                    System.out.println("Value of default is "+x);
+		}
+	}
+     
+     The output is:
+     Value of Case 2 is 10
+     Value of Case 3 is 10
+     Value of default is 10
+     ```
+     
+     
 ### Classes and Objects
 - A **class** is a group of objects having common property.
 - An **object** is an instance of class.
@@ -185,33 +259,33 @@ Here,
      * It returns a boolean value - True or False
      * It returns true iff both expressions are true, else it returns false.
      * Can be considered as a product(multiplication).
-     * ```
+     ```
      * eg. A && B = C
           * **A**  **B**  **C**
           * 0  0  0
           * 0  1  0
           * 1  0  0
           * 1  1  1
-      * ```
+      ```
 - **OR**
      * Represented as **||**
      * OR operator is applied between two Boolean expressions.
      * It returns a boolean value - True or False
      * It returns true if any of the expression is true, else it returns false.
      * Can be considered as a sum(addition).
-     * ```
+     ```
      * eg. A || B = C
           * **A**  **B**  **C**
           * 0  0  0
           * 0  1  1
           * 1  0  1
           * 1  1  1
-      * ```
+          ```
 
 ### Ternary Operator
-- ```
+  ```
 - variable = (condition) ? expression1 : expression2  
-- ```
+  ```
 - The above statement states that if the condition returns true, expression1 gets executed, else the expression2 gets executed and the final result stored in a variable.
 - It can be used instead of the if-else statement. 
 - It makes the code much more easy, readable, and shorter.
