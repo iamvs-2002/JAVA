@@ -260,7 +260,7 @@ Here,
      * It returns true iff both expressions are true, else it returns false.
      * Can be considered as a product(multiplication).
      ```
-     * eg. A && B = C
+     	eg. A && B = C
           * **A**  **B**  **C**
           * 0  0  0
           * 0  1  0
@@ -274,13 +274,13 @@ Here,
      * It returns true if any of the expression is true, else it returns false.
      * Can be considered as a sum(addition).
      ```
-     * eg. A || B = C
+     	eg. A || B = C
           * **A**  **B**  **C**
           * 0  0  0
           * 0  1  1
           * 1  0  1
           * 1  1  1
-          ```
+     ```
 
 ### Ternary Operator
   ```
