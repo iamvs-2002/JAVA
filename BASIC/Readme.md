@@ -174,6 +174,55 @@ eg:
      ```
      
      
+### Loops
+- Loops are used to execute a block of code several number of times.
+- There are various kinds of loops in Java:
+	* for loop 
+	* while loop
+	* do while loop
+	* for each loop
+- **for loop**
+	* Used to iterate a block of code several number of times.
+	* Best to use if the number of iterations are fixed.
+	```
+	for(initialization;condition;increment/decrement)
+	{  
+		// statements/code to be executed
+	}
+	```
+	* First Initialization of the variable takes place
+	* Then the condition is checked, if satisfied we enter the loop
+	* Statements are executed
+	* Then the variable(which was initialized earlier) is incremented/decremented
+	* Now the condition is checked again, if satisfied we enter the loop again and so on.
+	* The initializzation takes place only once.
+	* Example:
+		```
+		for(int i=1;i<10;i++)
+		{  
+			System.out.print(i+" ");  
+		}  
+		
+		The output of the above code is:
+		1 2 3 4 5 6 7 8 9
+		```
+	* Infinite loop:
+	```
+	for(;;)
+	{  
+		//code to be executed  
+	}
+	
+	The above loop executes infinitely because the condition is always true.
+	```
+- **while loop**
+	* Used to iterate a block of code several number of times.
+	* Best to use if the number of iterations are not fixed.
+- **do while loop**
+	* Used to iterate a block of code several number of times.
+	* Best to use if the number of iterations are not fixed and the code must be executed atleast once.
+
+
 ### Classes and Objects
 - A **class** is a group of objects having common property.
 - An **object** is an instance of class.
