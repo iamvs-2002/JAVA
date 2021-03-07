@@ -180,7 +180,7 @@ eg:
 	* for loop 
 	* while loop
 	* do while loop
-	* for each loop
+	* for-each loop
 - **for loop**
 	* Used to iterate a block of code several number of times.
 	* Best to use if the number of iterations are fixed.
@@ -249,6 +249,72 @@ eg:
 - **do while loop**
 	* Used to iterate a block of code several number of times.
 	* Best to use if the number of iterations are not fixed and the code must be executed atleast once.
+	```
+	do
+	{  
+		//code to be executed  
+	}
+	while(condition); 
+	```
+	* First the code(inside do block) gets executed.
+	* Then the condition is checked.
+	* If its true, we enter the loop again, else we don't.
+	* Hence the code gets executed atleast once.
+	* Example:
+	```
+	int i=1;
+	do
+	{
+		System.out.print(i+" ");
+		i++;
+	}
+	while(i<10);
+	
+	The output of the above code is:
+	1 2 3 4 5 6 7 8 9
+	```
+	* Infinite Loop:
+	```
+	do
+	{  
+		//code to be executed  
+	}
+	while(true);
+	The above loop executes infinitely because the condition is always true.
+	```
+- **for-each loop**
+	* Used to traverse array or collection in java.
+	* It is basically a simpler version of simple for loop in java, as increment or decrement is not required.
+	* It works on elements basis not index.
+	* It returns element one by one in the defined variable.
+	```
+	for(DataType variable:array){  
+		//code to be executed  
+	}  
+	```
+	* Example:
+	```
+	int[] arr = {10,20,30,40};
+	for(int i : arr)
+	{
+		System.out.print(i+" ");
+	}
+	
+	The output of the above code is:
+	10 20 30 40
+	```
+
+### Loop Control Statements
+- **break statement**
+	```
+	break;
+	```
+	* Used to terminate loop or switch statements.
+- **continue statement**
+	```
+	continue;
+	```
+	* Used to skip the current iteration of the loop and move to the next iteration for the same loop.
 
 
 ### Classes and Objects
