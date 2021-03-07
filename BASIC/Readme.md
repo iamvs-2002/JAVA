@@ -31,11 +31,9 @@ eg:
      char $ab = 'A'; //a variable of char type, named as $ab initialized with a value = A
     
 ### Conditional Statements(if/if-else/if-else if-else)
-- There are 5 kinds of conditional statements:
+- The various kinds of conditional statements:
      * if statement
-     * nested if statement
      * if-else statement
-     * if-else-if statement
      * Switch Case Statement
    
 - *if statement*
@@ -60,7 +58,25 @@ eg:
      ```
      * if the condition is satisfied, then execute the statement1
      * else execute the statement2
-
+- *else if statement*
+     ```
+     if(condition1)
+     {
+          statement1
+     }
+     else if(condition2)
+     {
+          statement2
+     }
+     else
+     {
+          statement3
+     }
+     ```
+     * if the condition1 is satisfied, then execute the statement1
+     * if not, check condition2
+     * if condition2 is satisfied, then execute the statement2
+     * else execute the statement3
 
 ### Classes and Objects
 - A **class** is a group of objects having common property.
