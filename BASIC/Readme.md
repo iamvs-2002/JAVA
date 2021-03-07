@@ -34,6 +34,17 @@ int i,j,k=20;
 char $ab = 'A'; 
 //a variable of char type, named as $ab initialized with a value = A
 ```
+
+### Comparison Operators
+- These operators are used to compare two values.
+- The comparison operators are:
+	* Equal to (==)
+	* Not equal to (!=)
+	* Greater than (>)
+	* Less than (<)
+	* Greater than or equal to (>=)
+	* Less than or equal to (<=)
+
 ### Conditional Statements(if/if-else/if-else if-else)
 - The various kinds of conditional statements:
      * if statement
