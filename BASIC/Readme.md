@@ -25,11 +25,15 @@ Some of the reserved words in Java are: public, class, static, try, catch, final
 * **float**-0.0f-*4 bytes*
 * **double**-0.0d-*8 bytes*
 
-eg:
+```
+Example:
 
-     int i,j,k=20;  //3 variables, i, j, k declared but only k is initialized
-     char $ab = 'A'; //a variable of char type, named as $ab initialized with a value = A
-    
+int i,j,k=20;  
+//3 variables, i, j, k declared but only k is initialized
+
+char $ab = 'A'; 
+//a variable of char type, named as $ab initialized with a value = A
+```
 ### Conditional Statements(if/if-else/if-else if-else)
 - The various kinds of conditional statements:
      * if statement
