@@ -46,6 +46,7 @@ class LinkedList{
 			node = node.next;
 			size++;
 		}
+		if(size>0) size++;//will take care if its null
 		System.out.println("\nSize of the list: "+size);
 	}
 	void print(){
@@ -88,18 +89,18 @@ Output:
 
 Printing the list:
 7 5 3
-Size of the list: 2
+Size of the list: 3
 
 Printing the list:
 7 5 10 3
-Size of the list: 3
-
-Printing the list:
-5 7 5 10 3
 Size of the list: 4
 
 Printing the list:
+5 7 5 10 3
+Size of the list: 5
+
+Printing the list:
 5 7 10 3
-Size of the list: 3
+Size of the list: 4
 
 */
